@@ -6,7 +6,7 @@ use App\Models\User;
 
 class TaskRepository
 {
-
+git commit -m "first commit"
     /** 
      * @param User $user
      * @return Collection */

@@ -58,11 +58,6 @@ Route::put('/quiz12/{id}', [QuizController::class, 'quiz12_update'])->name('quiz
 
 Route::delete('/quiz12/{id}', [QuizController::class, 'quiz12_delete'])->name('quiz12_test3');
 
-Auth::routes();
-
-
-
-
 Route::get('/', function () {
     return view('welcome');
 });
